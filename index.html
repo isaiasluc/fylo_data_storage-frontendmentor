@@ -35,20 +35,38 @@
             </div>
         </div>
     </div>
+    
     <div class="card2">
+        <div class="popup">
+            <div>
+                <b style="font-size: 40px; color: black">185</b> GB LEFT
+            </div>
+        </div>
         <div class="card-text">
             You've used <b>815 GB</b> of your storage
         </div>
         <div class="progress">
-            <div class="progress-bar w-75" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar w-75" role="progressbar" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
         <div class="card-text">
             0 GB
             <p>1000 GB</p>
         </div>
+        
     </div>
+
+    
+
 </div>
 
+
+
+<footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Isaías Lucena</a>.
+    </p>
+</footer>
 
 </body>
 </html>
@@ -59,6 +77,18 @@ body {
     background-image: url("./images/bg-desktop.svg");
     background-size: cover;
     font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.popup {
+    font-weight: 700;
+    color: grey;
+    background-color: white;
+    width: fit-content;
+    border-radius: 8px;
+    padding: 5px 20px;
+    position: absolute;
+    top: 350px;
+    right: 300px;
 }
 .container {
     display: flex;
@@ -76,7 +106,6 @@ body {
     padding: 40px;
     border-top-right-radius: 100px;
     margin-left: 100px;
-    
 }
 .card2 {
   min-width: 600px;
@@ -84,7 +113,6 @@ body {
   background-color: hsl(228, 56%, 26%);
   padding: 30px 30px;
   height: 130px;
-  
 }
 .logo {
     padding-bottom: 10px;
